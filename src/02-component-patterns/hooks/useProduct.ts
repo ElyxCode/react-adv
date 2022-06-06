@@ -51,7 +51,7 @@ export const useProduct = ({
   return {
     counter,
     increaseBy,
-    isMaxCountReached: !!initialValues?.count && initialValues.maxCount === counter,
+    isMaxCountReached: !!initialValues?.maxCount && initialValues.maxCount === counter,
     maxCount,
     reset
   };
